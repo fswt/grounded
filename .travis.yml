@@ -1,0 +1,16 @@
+dist: trusty
+sudo: false
+language:
+  - java
+env:
+  - TERM=dumb
+before_install:
+  - git fetch --unshallow
+cache:
+  directories:
+  - cnf/cache/stable
+addons:
+  sonarcloud:
+    organization: "fswt-github" # the key of the org you chose at step #3
+script:  
+- sonar-scanner -Dsonar.projectKey=fswt_grounded -Dsonar.sources=/home/travis/build/fswt/grounded/grounded-java/src
