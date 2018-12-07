@@ -13,4 +13,4 @@ addons:
   sonarcloud:
     organization: "fswt-github" # the key of the org you chose at step #3
 script:  
-- sonar-scanner -Dsonar.projectKey=fswt_grounded -Dsonar.sources=/home/travis/build/fswt/grounded/grounded-java/src
+- sonar-scanner -Dsonar.projectKey=fswt_grounded -Dsonar.sources=/home/travis/build/fswt/grounded/grounded-java/src -Dsonar.java.binaries="/home/travis/build/fswt/grounded/out/artifacts/grounded_java_jar/grounded-java.jar"
