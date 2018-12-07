@@ -3,7 +3,7 @@ Grounded
 
 Branch | Travis CI  | sonarcloud | Code Climate  
 ------ | ---------- | ---------- | ------------ 
-develop (default) | XXX |[![Maintainability](https://sonarcloud.io/api/project_badges/measure?project=fswt_grounded&metric=alert_status)](https://sonarcloud.io/dashboard?id=fswt_grounded)|[![Maintainability](https://api.codeclimate.com/v1/badges/8b7df72bf03b0472c6cc/maintainability)](https://codeclimate.com/github/fswt/grounded/maintainability)
+develop (default)|[![Build Status](https://travis-ci.com/fswt/grounded.svg?branch=master)](https://travis-ci.com/fswt/grounded)|[![Maintainability](https://sonarcloud.io/api/project_badges/measure?project=fswt_grounded&metric=alert_status)](https://sonarcloud.io/dashboard?id=fswt_grounded)|[![Maintainability](https://api.codeclimate.com/v1/badges/8b7df72bf03b0472c6cc/maintainability)](https://codeclimate.com/github/fswt/grounded/maintainability)
 
 
 
